@@ -1,0 +1,22 @@
+The AsciiImagerServer is the number one place to store all of your precious images in their full true ascii glory.
+
+It is suggested that you use the ExampleClient.py to talk to the server - there is example code of how to use it at the 
+bottom of the python file.
+
+The server can store images with and without password protection - for security reasons the password is randomly generated
+each time the server starts. Those who require access will find a way to work out the password.
+I have included one secret image with each build of the server.
+
+
+To build the server simply run 'make' in the AsciiImageServer folder.
+
+To start the server run './AsciiImageServer'
+
+
+
+I've had a report that there are several vulnerabilities in the code but I can't find them.
+Apparently it is possible to leak the password and, through seperate vulnerabilities,
+get code execution on the servers host machine.
+You have permission to audit the software, if you can work out whats wrong then please submit a patch request.
+
+
